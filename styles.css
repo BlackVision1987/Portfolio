@@ -83,3 +83,12 @@ body {
   #language-buttons button:hover {
     background-color: #005580;
   }
+  section a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section a:hover {
+    text-decoration: underline;
+  }
