@@ -138,7 +138,7 @@ function changeLanguage(language) {
         '*Performed well in any of the classrooms (Hard, Soft 1, 2, and Networks).',
         '*Responsible for reports and student lists in the system.'
       ],
-      'job3-title': 'Auditor',
+      'job3-title': 'Inventory Count',
       'jcompany3': 'Company:',  
       'jdate3': 'Date:',        
       'job3-responsibility': [
