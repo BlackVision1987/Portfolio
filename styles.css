@@ -63,3 +63,23 @@ body {
   a:hover {
     text-decoration: underline;
   }
+  #language-buttons {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+  }
+  
+  #language-buttons button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #f1e100e1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #language-buttons button:hover {
+    background-color: #005580;
+  }
