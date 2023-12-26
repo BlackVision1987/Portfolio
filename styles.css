@@ -116,3 +116,7 @@ body::before {
   background-size: 400% 400%;
   animation: animatedBackground 15s infinite;
 }
+#profile-picture {
+  width: 123px;
+  border-radius: 25%;  
+}
