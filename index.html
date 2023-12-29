@@ -8,111 +8,139 @@
 </head>
 <body>
   
+  <div id="language-buttons">
+    <button onclick="changeLanguage('es')">Español</button>
+    <button onclick="changeLanguage('en')">English</button>
+  </div>
+
   <header>
-    <h1>Gabriel Rioja</h1>
-    <p>Desarrollador de Software</p>
+    <img src="picture/profile_picture.jpg" alt="Tu Foto" id="profile-picture">
+    <h1 id="header-title">Gabriel Rioja</h1>
+    <p id="header-subtitle">Desarrollador de Software</p>
   </header>
-  
+
   <section id="about">
-    <h2>Acerca de Mí</h2>
-    <p>¡Hola! Soy Gabriel Rioja, un apasionado técnico de PCs y ahora iniciando como desarrollador de software con experiencia en Python, JavaScript, HTML y CSS. Mi objetivo es el desarrollo y crecimiento personal, transmitir los conocimientos adquiridos</p>
+    <h2 id="about-title">Acerca de Mí</h2>
+    <p id="about-content">¡Hola! Soy Gabriel Rioja, un apasionado técnico de PCs y ahora iniciando como desarrollador de software con experiencia en Python, JavaScript, HTML y CSS. Mi objetivo es el desarrollo y crecimiento personal, transmitir los conocimientos adquiridos.</p>
   </section>
-  
+
   <section id="experience">
-    <h2>Experiencia Laboral</h2>
-    <div class="job">
-      <h3>Técnico de PCs (Hardware y Software)</h3>
-      <p><strong>Empresa:</strong> Freelance</p>
-      <p><strong>Fecha:</strong> 2003 - Actualidad</p>
-      <p>Armo presupuestos de PCs a medida.</p>
-      <p>Me encargo de buscar los componentes, armarlos e instalar SO y programas.</p>
-      <p>Detecto fallas de Hardware y Software y paso a repararlas de ser posible.</p>
-      <p>Mantenimiento de PCs, actualización de Hardware, Software, limpieza.</p>
+    <h2 id="experience-title">Experiencia Laboral</h2>
+    <div class="job1">
+      <h3 class="job-title" id="job1-title">Técnico de PCs (Hardware y Software)</h3>
+      <strong id="jcompany1">Empresa:</strong> Freelance<br>
+      <strong id="jdate1">Fecha:</strong> 2003 - <span id="jdate1-current">Actualidad</span><br>
+      <p id="job1-responsibility">
+        *Armo presupuestos de PCs a medida.<br>
+        *Me encargo de buscar los componentes, armarlos e instalar SO y programas.<br>
+        *Detecto fallas de Hardware y Software y paso a repararlas de ser posible.<br>
+        *Mantenimiento de PCs, actualización de Hardware, Software, limpieza.
+      </p>
     </div>
-    <div class="job">
-      <h3>Instructor de Computación</h3>
-      <p><strong>Empresa:</strong> F.U.C.E (Fundación Unión de Centros Educativos)</p>
-      <p><strong>Fecha:</strong> 2004 - 2005</p>
-      <p>Me desempeñaba bien en cualquiera de las aulas (Hard, Soft 1, 2 y Redes).</p>
-      <p>Me encargaba de pasar informes y listas de alumnos al sistema.</p>
+    <div class="job2">
+      <h3 class="job-title" id="job2-title">Instructor de Computación</h3>
+      <strong id="jcompany2">Empresa:</strong> <span id="jcompany2-current">F.U.C.E (Fundación Unión de Centros Educativos)</span><br>
+      <strong id="jdate2">Fecha:</strong> 2004 - 2005<br>
+      <p id="job2-responsibility">
+        *Me desempeñaba bien en cualquiera de las aulas (Hard, Soft 1, 2 y Redes).<br>
+        *Me encargaba de pasar informes y listas de alumnos al sistema.
+      </p>
     </div>
-    <div class="job">
-      <h3>Auditor</h3>
-      <p><strong>Empresa:</strong> S.E.M.C.O. Rgis</p>
-      <p><strong>Fecha:</strong> 2005 - 2005</p>
-      <p>Contaba mercadería para empresas grandes como Norte o Carrefour.</p>
-      <p>Buena productividad de trabajo.</p>
+    <div class="job3">
+      <h3 class="job-title" id="job3-title">Auditor</h3>
+      <strong id="jcompany3">Empresa:</strong> S.E.M.C.O. Rgis<br>
+      <strong id="jdate3">Fecha:</strong> 2005 - 2005<br>
+      <p id="job3-responsibility">      
+      *Contaba mercadería para empresas grandes como Norte o Carrefour.<br>
+      *Buena productividad de trabajo.
+      </p>
     </div>
-    <div class="job">
-      <h3>Vendedor</h3>
-      <p><strong>Empresa:</strong> Bodega Amparo - M5</p>
-      <p><strong>Fecha:</strong> 2007 - 2009</p>
-      <p>Vendedor de salón, repositor, ingresar clientes en el sistema, cajero.</p>
+    <div class="job4">
+      <h3 class="job-title" id="job4-title">Vendedor</h3>
+      <strong id="jcompany4">Empresa:</strong> Bodega Amparo - M5<br>
+      <strong id="jdate4">Fecha:</strong> 2007 - 2009<br>
+      <p id="job4-responsibility">
+      *Vendedor de salón, repositor, ingresar clientes en el sistema, cajero.
+      </p>
     </div>
-    <div class="job">
-      <h3>Soporte Técnico</h3>
-      <p><strong>Empresa:</strong> Badamit</p>
-      <p><strong>Fecha:</strong> 2012 - 2012</p>
-      <p>Reparación de pcs, redes on site y remoto.</p>
+    <div class="job5">
+      <h3 class="job-title" id="job5-title">Soporte Técnico</h3>
+      <strong id="jcompany5">Empresa:</strong> Badamit<br>
+      <strong id="jdate5">Fecha:</strong> 2012 - 2012<br>
+      <p id="job5-responsibility">
+      *Reparación de pcs, redes on site y remoto.
+     </p>
     </div>
-    <div class="job"></div>
-      <h3>Telemarketer</h3>
-      <p><strong>Empresa:</strong> Comunicar</p>
-      <p><strong>Fecha:</strong> 2013 - 2013</p>
-      <p>Venta telefónica del servicio de DirectTV.</p>
-      <p>Buena habilidad de venta, conocimiento del producto.</p>
+    <div class="job6">
+      <h3 class="job-title" id="job6-title">Telemarketer</h3>
+      <strong id="jcompany6">Empresa:</strong> Comunicar<br>
+      <strong id="jdate6">Fecha:</strong> 2013 - 2013<br>
+      <p id="job6-responsibility">
+      *Venta telefónica del servicio de DirectTV.<br>
+      *Buena habilidad de venta, conocimiento del producto.
+     </p>
     </div>    
-  </section>
-  
+    </section>
+
   <section id="education">
-    <h2>Educación</h2>
-    <div class="degree">
-      <h3>Bachiller Comercio Exterior</h3>
-      <p><strong>Institución:</strong> Don Bosco León XIII</p>
-      <p><strong>Fecha:</strong> 1993 - 2004</p>
-      <p>Estudios primarios completos.</p>
-      <p>Estudios secundarios completos.</p>
+    <h2 id="education-title">Educación</h2>
+    <div class="degree1">
+      <h3 class="degree-title" id="degree1-title">Bachiller Comercio Exterior</h3>
+      <strong id="education1">Institución:</strong> Don Bosco León XIII<br>
+      <strong id="ddate1">Fecha:</strong> 1993 - 2005<br>
+      <p id="degree1-data">
+      *Estudios primarios completos.<br>
+      *Estudios secundarios completos.
+     </p>
     </div>
-    <div class="degree">
-      <h3>Curso Python</h3>
-      <p><strong>Institución:</strong> Coderhouse</p>
-      <p><strong>Fecha:</strong> 2022 - 2023</p>
+    <div class="degree2">
+      <h3 class="degree-title" id="degree2-title">Curso Python</h3>
+      <p class="degree2-data">
+      <strong id="education2">Institución:</strong> Coderhouse<br>
+      <strong id="ddate2">Fecha:</strong> 2022 - 2023<br>
+      <a href="https://www.coderhouse.com/certificados/641106c180b5eb0002da2bad?lang=es" target="_blank"><span id="dcert2-current">Certificado</span></a><br>
+     </p>
     </div>
-    <div class="degree">
-      <h3>Curso JavaScript</h3>
-      <p><strong>Institución:</strong> Coderhouse</p>
-      <p><strong>Fecha:</strong> 2023 - 2023</p>
+    <div class="degree3">
+      <h3 class="degree-title" id="degree3-title">Curso JavaScript</h3>
+      <p class="degree3-data">
+      <strong id="education3">Institución:</strong> Coderhouse<br>
+      <strong id="ddate3">Fecha:</strong> 2023 - 2023<br>
+      <a href="https://www.coderhouse.com/certificados/6556ab3e950f05644af78fc6?lang=es" target="_blank"><span id="dcert3-current">Certificado</span></a><br>
+     </p>
     </div>    
   </section>
-  
+
   <section id="skills">
-    <h2>Habilidades</h2>
+    <h2 id="skills-title">Habilidades</h2>
     <ul>
       <li>JavaScript</li>
       <li>HTML5 y CSS3</li>
-      <li>Python</li>      
+      <li>Python</li>
     </ul>
   </section>
-  
-<section id="projects">
-    <h2>Proyectos Destacados</h2>
-    <div class="project">
-      <h3>Tienda de Hardware de PC</h3>
-      <p>Proyecto final de JavaScript, una tienda simple para compra de componentes de PC</p>
-      <p>https://blackvision1987.github.io/Entrega-Final-JS-Rioja/</p>
-      <p>https://github.com/BlackVision1987/Entrega-Final-JS-Rioja.git</p>
-    </div>
-  </section>  
 
-  
-  <section id="contact">
-    <h2>Contacto</h2>
-    <p>Puedes contactarme en <a href="mailto:gabriel_rioja@hotmail.com">gabriel_rioja@hotmail.com</a>. También estoy en <a href="https://www.linkedin.com/in/gabrielrioja/" target="_blank">LinkedIn</a> y <a href="https://github.com/BlackVision1987" target="_blank">GitHub</a>.</p>
+  <section id="projects">
+    <h2 id="projects-title">Proyectos Destacados</h2>
+    <div class="project1">
+      <h3 class="project-title" id="project1-title">Tienda de Hardware de PC</h3>
+      <p id="project1-data">
+        *Proyecto final de JavaScript, una tienda simple para compra de componentes de PC<br>
+        <a href="https://blackvision1987.github.io/Entrega-Final-JS-Rioja/" target="_blank">https://blackvision1987.github.io/Entrega-Final-JS-Rioja/</a><br>
+        <a href="https://github.com/BlackVision1987/Entrega-Final-JS-Rioja.git" target="_blank">https://github.com/BlackVision1987/Entrega-Final-JS-Rioja.git</a>
+      </p>
+    </div>    
   </section>
-  
+
+  <section id="contact">
+    <h2 id="contact-title">Contacto</h2>
+    <p id="contact-content">Puedes contactarme en <a href="mailto:gabriel_rioja@hotmail.com">gabriel_rioja@hotmail.com</a>. También estoy en <a href="https://www.linkedin.com/in/gabriel-rioja-rodriguez-b560182a7//" target="_blank">LinkedIn</a> y <a href="https://github.com/BlackVision1987" target="_blank">GitHub</a>.</p>
+  </section>
+
   <footer>
-    <p>&copy; 2023 Gabriel Rioja - Portfolio</p>
-  </footer>
-  <script src="main.js"></script>
+    <p id="footer-content">&copy; 2023 Gabriel Rioja - Portfolio</p>
+  </footer>  
+  
+  <script src="main.js"></script>  
 </body>
 </html>
