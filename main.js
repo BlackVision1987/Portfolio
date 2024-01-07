@@ -33,7 +33,7 @@ function changeLanguage(language) {
   const languageElements = {
     'es': {
     'header-title': 'Gabriel Rioja',
-    'header-subtitle': 'Desarrollador de Software',
+    'header-subtitle': 'Técnico de TI - Desarrollador de Software',
     'about-title': 'Acerca de Mí',
     'about-content': '¡Hola! Soy Gabriel Rioja, un apasionado técnico de PCs y ahora iniciando como desarrollador de software con experiencia en Python, JavaScript, HTML y CSS. Mi objetivo es el desarrollo y crecimiento personal, transmitir los conocimientos adquiridos.',
     'experience-title': 'Experiencia Laboral',
@@ -112,7 +112,7 @@ function changeLanguage(language) {
   },
   'en': {
       'header-title': 'Gabriel Rioja',
-      'header-subtitle': 'Software Developer',
+      'header-subtitle': 'IT Technician - Software Developer',
       'about-title': 'About Me',
       'about-content': 'Hello! I am Gabriel Rioja, a passionate PC technician now transitioning into software development with experience in Python, JavaScript, HTML, and CSS. My goal is personal development and growth, sharing the knowledge I have acquired.',
       'experience-title': 'Work Experience',
