@@ -118,7 +118,7 @@ body::before {
 }
 #profile-picture {
   width: 100%;
-  max-width: 123px;
+  max-width: 150px;
   border-radius: 25%;  
 }
 
@@ -138,4 +138,8 @@ body::before {
   body {
     font-size: 12px;
   }  
+}
+
+.certificado-img {
+  max-width: 50%;    
 }

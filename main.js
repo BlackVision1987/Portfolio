@@ -192,6 +192,24 @@ function changeLanguage(language) {
     }
   };
 
+  const certificadoPythonEs = document.getElementById('certificado-python-es');
+  const certificadoPythonEn = document.getElementById('certificado-python-en');
+  const certificadoJsEs = document.getElementById('certificado-js-es');
+  const certificadoJsEn = document.getElementById('certificado-js-en');
+
+  if (language === 'es') {
+    certificadoPythonEs.style.display = 'inline'; 
+    certificadoPythonEn.style.display = 'none';  
+    certificadoJsEs.style.display = 'inline';
+    certificadoJsEn.style.display = 'none';
+  } else {
+    certificadoPythonEs.style.display = 'none';
+    certificadoPythonEn.style.display = 'inline';
+    certificadoJsEs.style.display = 'none';
+    certificadoJsEn.style.display = 'inline';
+  }
+
+
   
   for (const elementId in languageElements[language]) {
     const element = document.getElementById(elementId);
