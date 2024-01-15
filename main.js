@@ -43,7 +43,7 @@ function changeLanguage(language) {
     'contact-title': 'Contacto',
     'contact-content': 'Puedes contactarme en <a href="mailto:gabriel_rioja@hotmail.com">gabriel_rioja@hotmail.com</a>. También estoy en <a href="https://www.linkedin.com/in/gabriel-rioja-rodriguez-b560182a7/" target="_blank">LinkedIn</a> y <a href="https://github.com/BlackVision1987" target="_blank">GitHub</a>.',
     'footer-content': '&copy; 2023 Gabriel Rioja - Portfolio',
-    'job1-title': 'Técnico de PCs (Hardware y Software)',
+    'job1-title': 'Técnico de TI',
     'jcompany1': 'Empresa:',        
     'jdate1-current': 'Actualidad',
     'jdate1': 'Fecha:',
@@ -102,6 +102,7 @@ function changeLanguage(language) {
     'degree3-title': 'Curso JavaScript',
     'education3': 'Institución:',
     'ddate3': 'Fecha:',
+    'skt1': 'Técnico de TI',
     'dcert3-current': 'Certificado',       
     'project1-title': 'Tienda de Hardware de PC',
     'project1-data': [
@@ -122,7 +123,7 @@ function changeLanguage(language) {
       'contact-title': 'Contact',
       'contact-content': 'You can reach me at <a href="mailto:gabriel_rioja@hotmail.com">gabriel_rioja@hotmail.com</a>. I am also on <a href="https://www.linkedin.com/in/gabriel-rioja-rodriguez-b560182a7/" target="_blank">LinkedIn</a> and <a href="https://github.com/BlackVision1987" target="_blank">GitHub</a>.',
       'footer-content': '&copy; 2023 Gabriel Rioja - Portfolio',
-      'job1-title': 'PC Technician (Hardware and Software)',
+      'job1-title': 'IT Technician',
       'jcompany1': 'Company:',
       'jdate1-current': 'Present',
       'jdate1': 'Date:',
@@ -180,6 +181,7 @@ function changeLanguage(language) {
       'degree3-title': 'JavaScript Course',
       'education3': 'Institution:',
       'ddate3': 'Date:',
+      'skt1': 'IT Technician',
       'dcert3-current': 'Certificate',        
       'project1-title': 'PC Hardware Store',
       'project1-data': [

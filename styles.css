@@ -117,6 +117,25 @@ body::before {
   animation: animatedBackground 15s infinite;
 }
 #profile-picture {
-  width: 123px;
+  width: 100%;
+  max-width: 123px;
   border-radius: 25%;  
+}
+
+@media screen and (min-width: 768px) {  
+  body {
+    font-size: 16px;
+  }  
+}
+
+@media screen and (max-width: 767px) {  
+  body {
+    font-size: 14px;
+  }  
+}
+
+@media screen and (max-width: 480px) {  
+  body {
+    font-size: 12px;
+  }  
 }
