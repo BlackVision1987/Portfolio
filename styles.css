@@ -140,7 +140,24 @@ body::before {
   }  
 }
 
-.certificado-img {
-  max-width: 50%;
-  margin-top: 10px;    
+@media only screen and (max-width: 767px) {
+  #certificado-python-es,
+  #certificado-python-en,
+  #certificado-js-es,
+  #certificado-js-en {
+    width: 100%;
+    margin-top: 10px;
+    max-width: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #certificado-python-es,
+  #certificado-python-en,
+  #certificado-js-es,
+  #certificado-js-en {
+    width: auto;
+    margin-top: 10px;
+    max-width: 750px;
+  }
 }
