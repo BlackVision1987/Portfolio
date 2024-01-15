@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  // Smooth scrolling for all internal links
+  
   const internalLinks = document.querySelectorAll('a[href^="#"]');
 
   for (const internalLink of internalLinks) {
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
-  // Toggle project details
+  
   const projectDetails = document.querySelectorAll('.project');
 
   for (const projectDetail of projectDetails) {
@@ -192,11 +192,11 @@ function changeLanguage(language) {
     }
   };
 
-  // Cambiar el texto según el idioma seleccionado
+  
   for (const elementId in languageElements[language]) {
     const element = document.getElementById(elementId);
     if (element) {
-      // Verifica si es un array y actualiza el contenido en consecuencia
+      
       if (Array.isArray(languageElements[language][elementId])) {
         const content = languageElements[language][elementId].join('<br>');
         element.innerHTML = content;
