@@ -141,5 +141,6 @@ body::before {
 }
 
 .certificado-img {
-  max-width: 50%;    
+  max-width: 50%;
+  margin-top: 10px;    
 }
