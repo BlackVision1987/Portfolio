@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  // Smooth scrolling for all internal links
+  
   const internalLinks = document.querySelectorAll('a[href^="#"]');
 
   for (const internalLink of internalLinks) {
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
-  // Toggle project details
+  
   const projectDetails = document.querySelectorAll('.project');
 
   for (const projectDetail of projectDetails) {
@@ -33,7 +33,7 @@ function changeLanguage(language) {
   const languageElements = {
     'es': {
     'header-title': 'Gabriel Rioja',
-    'header-subtitle': 'Desarrollador de Software',
+    'header-subtitle': 'Técnico de TI - Desarrollador Python - JavaScript',
     'about-title': 'Acerca de Mí',
     'about-content': '¡Hola! Soy Gabriel Rioja, un apasionado técnico de PCs y ahora iniciando como desarrollador de software con experiencia en Python, JavaScript, HTML y CSS. Mi objetivo es el desarrollo y crecimiento personal, transmitir los conocimientos adquiridos.',
     'experience-title': 'Experiencia Laboral',
@@ -42,8 +42,8 @@ function changeLanguage(language) {
     'projects-title': 'Proyectos Destacados',
     'contact-title': 'Contacto',
     'contact-content': 'Puedes contactarme en <a href="mailto:gabriel_rioja@hotmail.com">gabriel_rioja@hotmail.com</a>. También estoy en <a href="https://www.linkedin.com/in/gabriel-rioja-rodriguez-b560182a7/" target="_blank">LinkedIn</a> y <a href="https://github.com/BlackVision1987" target="_blank">GitHub</a>.',
-    'footer-content': '&copy; 2023 Gabriel Rioja - Portfolio',
-    'job1-title': 'Técnico de PCs (Hardware y Software)',
+    'footer-content': '&copy; 2024 Gabriel Rioja - Portfolio',
+    'job1-title': 'Técnico de TI',
     'jcompany1': 'Empresa:',        
     'jdate1-current': 'Actualidad',
     'jdate1': 'Fecha:',
@@ -102,6 +102,7 @@ function changeLanguage(language) {
     'degree3-title': 'Curso JavaScript',
     'education3': 'Institución:',
     'ddate3': 'Fecha:',
+    'skt1': 'Técnico de TI',
     'dcert3-current': 'Certificado',       
     'project1-title': 'Tienda de Hardware de PC',
     'project1-data': [
@@ -112,7 +113,7 @@ function changeLanguage(language) {
   },
   'en': {
       'header-title': 'Gabriel Rioja',
-      'header-subtitle': 'Software Developer',
+      'header-subtitle': 'IT Technician - Python - JavaScript Developer',
       'about-title': 'About Me',
       'about-content': 'Hello! I am Gabriel Rioja, a passionate PC technician now transitioning into software development with experience in Python, JavaScript, HTML, and CSS. My goal is personal development and growth, sharing the knowledge I have acquired.',
       'experience-title': 'Work Experience',
@@ -121,8 +122,8 @@ function changeLanguage(language) {
       'projects-title': 'Featured Projects',
       'contact-title': 'Contact',
       'contact-content': 'You can reach me at <a href="mailto:gabriel_rioja@hotmail.com">gabriel_rioja@hotmail.com</a>. I am also on <a href="https://www.linkedin.com/in/gabriel-rioja-rodriguez-b560182a7/" target="_blank">LinkedIn</a> and <a href="https://github.com/BlackVision1987" target="_blank">GitHub</a>.',
-      'footer-content': '&copy; 2023 Gabriel Rioja - Portfolio',
-      'job1-title': 'PC Technician (Hardware and Software)',
+      'footer-content': '&copy; 2024 Gabriel Rioja - Portfolio',
+      'job1-title': 'IT Technician',
       'jcompany1': 'Company:',
       'jdate1-current': 'Present',
       'jdate1': 'Date:',
@@ -180,6 +181,7 @@ function changeLanguage(language) {
       'degree3-title': 'JavaScript Course',
       'education3': 'Institution:',
       'ddate3': 'Date:',
+      'skt1': 'IT Technician',
       'dcert3-current': 'Certificate',        
       'project1-title': 'PC Hardware Store',
       'project1-data': [
@@ -190,11 +192,29 @@ function changeLanguage(language) {
     }
   };
 
-  // Cambiar el texto según el idioma seleccionado
+  const certificadoPythonEs = document.getElementById('certificado-python-es');
+  const certificadoPythonEn = document.getElementById('certificado-python-en');
+  const certificadoJsEs = document.getElementById('certificado-js-es');
+  const certificadoJsEn = document.getElementById('certificado-js-en');
+
+  if (language === 'es') {
+    certificadoPythonEs.style.display = 'inline'; 
+    certificadoPythonEn.style.display = 'none';  
+    certificadoJsEs.style.display = 'inline';
+    certificadoJsEn.style.display = 'none';
+  } else {
+    certificadoPythonEs.style.display = 'none';
+    certificadoPythonEn.style.display = 'inline';
+    certificadoJsEs.style.display = 'none';
+    certificadoJsEn.style.display = 'inline';
+  }
+
+
+  
   for (const elementId in languageElements[language]) {
     const element = document.getElementById(elementId);
     if (element) {
-      // Verifica si es un array y actualiza el contenido en consecuencia
+      
       if (Array.isArray(languageElements[language][elementId])) {
         const content = languageElements[language][elementId].join('<br>');
         element.innerHTML = content;
