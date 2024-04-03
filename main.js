@@ -33,7 +33,7 @@ function changeLanguage(language) {
   const languageElements = {
     'es': {
     'header-title': 'Gabriel Rioja',
-    'header-subtitle': 'Técnico de TI - Desarrollador Python - JavaScript',
+    'header-subtitle': 'Técnico Informático - Desarrollador Python - JavaScript',
     'about-title': 'Acerca de Mí',
     'about-content': '¡Hola! Soy Gabriel Rioja, un apasionado técnico de PCs y ahora iniciando como desarrollador de software con experiencia en Python, JavaScript, HTML y CSS. Mi objetivo es el desarrollo y crecimiento personal, transmitir los conocimientos adquiridos.',
     'experience-title': 'Experiencia Laboral',
@@ -43,7 +43,7 @@ function changeLanguage(language) {
     'contact-title': 'Contacto',
     'contact-content': 'Puedes contactarme en <a href="mailto:gabriel_rioja@hotmail.com">gabriel_rioja@hotmail.com</a>. También estoy en <a href="https://www.linkedin.com/in/gabriel-rioja-rodriguez-b560182a7/" target="_blank">LinkedIn</a> y <a href="https://github.com/BlackVision1987" target="_blank">GitHub</a>.',
     'footer-content': '&copy; 2024 Gabriel Rioja - Portfolio',
-    'job1-title': 'Técnico de TI',
+    'job1-title': 'Técnico Informático',
     'jcompany1': 'Empresa:',        
     'jdate1-current': 'Actualidad',
     'jdate1': 'Fecha:',
@@ -102,7 +102,7 @@ function changeLanguage(language) {
     'degree3-title': 'Curso JavaScript',
     'education3': 'Institución:',
     'ddate3': 'Fecha:',
-    'skt1': 'Técnico de TI',
+    'skt1': 'Técnico Informático',
     'dcert3-current': 'Certificado',       
     'project1-title': 'Tienda de Hardware de PC',
     'project1-data': [
