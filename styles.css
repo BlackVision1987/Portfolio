@@ -172,6 +172,6 @@ body::before {
 
 .skill:hover {
   transform: scale(1.1);
-  color: #ff9800; /* Cambia el color al pasar el ratón */
+  color: #ff9800;
   cursor: pointer;
 }
