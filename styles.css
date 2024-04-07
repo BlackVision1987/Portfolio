@@ -70,7 +70,7 @@ a:hover {
 #language-buttons {
   position: fixed;
   top: 10px;
-  z-index: 999; /* Ajustar el índice z para que esté por encima de otros elementos */
+  z-index: 999;
   right: 10px;
   display: flex;
 }
